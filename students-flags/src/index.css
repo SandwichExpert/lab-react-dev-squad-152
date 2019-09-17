@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.navBar{
+  background-color : #2e7bf6;
+  color : white;
+  height : 60px; 
+  padding : 15px; 
+  display : flex;
+  justify-content : space-between;
+  align-items: center;
+}
+
+.navBar__burger {
+  font-weight : 700;
+  height : 40px; 
+  width : auto;
+  color : white;
+}
+
+.students_form{
+  display : flex;
+  flex-flow: column wrap; 
+  align-content: center;
+  align-items: flex-start;
+  width:100%;
+}
+
+.students_table{
+  width : 75%;
+}
+
+.row{
+  border-bottom: 1px solid black;
+  padding : 2px;
+  display : flex;
+  flex-flow: row wrap; 
+  justify-content : space-around;
+  align-items:center;
+  align-content : flex-start;
+  text-align:left;
+}
+
+.post_its{
+  display:flex;
+  flex-flow : row wrap;
+  justify-content : center;
+  align-content: center;
+  margin-top : 20px;
+}
+
+.tick{
+  margin-right :20px;
+}
